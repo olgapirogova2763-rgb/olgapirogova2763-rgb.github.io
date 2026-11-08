@@ -1,0 +1,23 @@
+﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kairen Uploader</title>
+<style>
+/* Layout: single readable column, plain legal document */
+:root{--bg:#f6f7f9;--fg:#1b1f27;--muted:#5a6272;--line:#dde1e8;--accent:#2a5bd7;--body:"Source Sans 3",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171d;--fg:#e6e9ef;--muted:#9aa3b2;--line:#2a2f39;--accent:#7fa2ff;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#14171d;--fg:#e6e9ef;--muted:#9aa3b2;--line:#2a2f39;--accent:#7fa2ff;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--body);padding-block:40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:65ch;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+h1{font-size:1.8rem;line-height:1.2;margin:0;text-wrap:balance}
+h2{font-size:1.1rem;margin:16px 0 0;padding-top:16px;border-top:1px solid var(--line)}
+p,ul{margin:0}
+a{color:var(--accent)}
+.meta{color:var(--muted);font-size:.9rem;letter-spacing:.02em}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap"></head><body>
+<main>
+<h1>Kairen Uploader</h1>
+<p>Kairen Uploader is a small desktop tool that lets the owner of the Kairen channel publish their own short videos to their own YouTube and TikTok accounts through the official YouTube Data API and TikTok Content Posting API.</p>
+<h2>How it works</h2>
+<ul><li>The owner signs in with TikTok (Login Kit) or Google and grants access to their own account.</li><li>The owner picks a finished video, reviews the caption and privacy setting, and confirms the post.</li><li>The tool uploads the video and shows the post status. Nothing is posted without the owner's action.</li></ul>
+<h2>Legal</h2>
+<p><a href="terms.html">Terms of Service</a> &middot; <a href="privacy.html">Privacy Policy</a></p>
+</main></body></html>
